@@ -57,7 +57,7 @@ jobs:
             run: node scripts/check-ai-time-log-totals.mjs
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           # source-pairing and reviewed-immutable need history to git-show
           # the base ref. fetch-depth: 0 is cheap here and keeps the matrix
